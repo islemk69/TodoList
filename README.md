@@ -39,23 +39,29 @@ This will launch the application at http://localhost:3000 (or another available 
 
 ## Project Structure
 
-index.html: The main HTML file
-style.css: The CSS file for styling the application
-index.js: The main JavaScript file containing the application logic
-package.json: The project configuration file with scripts and dependencies
+- index.html: The main HTML file
+- style.css: The CSS file for styling the application
+- index.js: The main JavaScript file containing the application logic
+- package.json: The project configuration file with scripts and dependencies
 
 ## Usage
 
-Add a Task
+### Add a Task
+
 Type the task in the text input field of the form.
 Click the "Add" button.
-Mark a Task as Completed/Incomplete
+### Mark a Task as Completed/Incomplete
+
 Click on the task item to toggle its completed/incomplete state.
-Edit a Task
+
+### Edit a Task
+
 Click the "Edit" button on the task you want to modify.
 Modify the text in the input field.
 Click the "Save" button to save the changes or the "Cancel" button to cancel editing.
-Delete a Task
+
+### Delete a Task
+
 Click the "Delete" button on the task you want to remove.
 
 ## Contribution
