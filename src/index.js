@@ -12,16 +12,6 @@ form.addEventListener("submit", event => {
 
 
 let todos = [
-    {
-        text: "hello wolrd",
-        done: true,
-        editMode: false
-    },
-    {
-        text: "todo not done",
-        done: false,
-        editMode: true,
-    }
 ];
 
 const displayTodo = () => {

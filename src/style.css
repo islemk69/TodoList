@@ -1,5 +1,8 @@
 * body {
     box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
   }
   
   body {
@@ -7,25 +10,41 @@
     min-height: 100vh;
     display: flex;
     align-items: center;
+    flex-direction: column;
     justify-content: center;
+    background-color: #8F8ECB;
+    color: white;
   }
   
   p {
     margin: 0;
   }
+
+  h1 {
+    font-weight: bold;
+    font-size: 52px;
+    margin: 0;
+  }
+
+  h1 span {
+    color: #805DF6;
+  }
   
   .container {
-    width: 500px;
-    border: 1px solid #eee;
+    width: 50%;
+    min-height: 70vh;
     border-radius: 3px;
     padding: 20px;
     display: flex;
     flex-direction: column;
+    background-color: #121215;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   }
   
   form {
     display: flex;
-    margin-bottom: 20px;
+    margin: 20px 0;
   }
   
   button {
@@ -35,6 +54,10 @@
     cursor: pointer;
     margin: 0 3px;
     outline: none;
+    background: #764FF7;
+    height: 35px;
+    width: 150px;
+    color: white;
   }
   
   input {
@@ -42,6 +65,7 @@
     outline: 0;
     border: 1px solid #ddd;
     border-radius: 3px;
+    font-size: 15px;
   }
   
   form input {
@@ -74,8 +98,9 @@
     border-radius: 30px;
     margin-right: 15px;
     border: 2px solid #333;
+    background-color: white;
   }
   
   li .todo.done {
-    background: #333;
+    background: #764FF7;
   }
