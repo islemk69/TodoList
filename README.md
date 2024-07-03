@@ -2,6 +2,8 @@
 
 This project is a Todo List application built using JavaScript, HTML, and CSS. The application allows users to add, edit, mark as completed, and delete tasks.
 
+![Texte alternatif](./img/screenshot.png)
+
 ## Features
 
 - Add a new task
